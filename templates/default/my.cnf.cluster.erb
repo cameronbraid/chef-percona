@@ -58,6 +58,7 @@ net_read_timeout = <%= node["percona"]["server"]["net_read_timeout"] %>
 binlog_format                  = <%= node["percona"]["cluster"]["binlog_format"] %>
 wsrep_provider                 = <%= node["percona"]["cluster"]["wsrep_provider"] %>
 wsrep_cluster_address          = <%= node["percona"]["cluster"]["wsrep_cluster_address"] %>
+wsrep_sst_receive_address      = <%= node["percona"]["cluster"]["wsrep_sst_receive_address"] %>
 wsrep_slave_threads            = <%= node["percona"]["cluster"]["wsrep_slave_threads"] %>
 wsrep_cluster_name             = <%= node["percona"]["cluster"]["wsrep_cluster_name"] %>
 wsrep_sst_method               = <%= node["percona"]["cluster"]["wsrep_sst_method"] %>
