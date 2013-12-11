@@ -148,6 +148,7 @@ default["percona"]["cluster"]["binlog_format"]                  = "ROW"
 default["percona"]["cluster"]["wsrep_provider"]                 = "/usr/lib64/libgalera_smm.so"
 default["percona"]["cluster"]["wsrep_cluster_address"]          = ""
 default["percona"]["cluster"]["wsrep_sst_receive_address"]      = ""
+default["percona"]["cluster"]["wsrep_sst_auth"]                 = ""
 default["percona"]["cluster"]["wsrep_slave_threads"]            = 2
 default["percona"]["cluster"]["wsrep_cluster_name"]             = ""
 default["percona"]["cluster"]["wsrep_sst_method"]               = "rsync"
