@@ -62,6 +62,7 @@ wsrep_slave_threads            = <%= node["percona"]["cluster"]["wsrep_slave_thr
 wsrep_cluster_name             = <%= node["percona"]["cluster"]["wsrep_cluster_name"] %>
 wsrep_sst_method               = <%= node["percona"]["cluster"]["wsrep_sst_method"] %>
 wsrep_node_name                = <%= node["percona"]["cluster"]["wsrep_node_name"] %>
+wsrep_provider_options         = "<%= node["percona"]["cluster"]["wsrep_provider_options"] %>"
 innodb_locks_unsafe_for_binlog = <%= node["percona"]["cluster"]["innodb_locks_unsafe_for_binlog"] %>
 innodb_autoinc_lock_mode       = <%= node["percona"]["cluster"]["innodb_autoinc_lock_mode"] %>
 
